@@ -39,8 +39,8 @@ Poi **una persona verifica**, i dati entrano nell'**archivio**, e l'**Agente 2, 
 La cosa più importante è nel riquadro blu: Agent Builder non permette agli agenti di parlarsi, quindi l'abbiamo fatto noi. **Nella stessa chat chiamiamo @Agente 1 e poi @Agente 2**, che usa subito i dati appena trovati. E se mancano dati, l'Advisor scrive la richiesta all'Agente 1."
 ➡ *passa alla slide 5*
 
-## SLIDE 5 · "Non è caduto nelle trappole" · 🎤 ELISEY (35 secondi)
-"Le quattro prove avevano delle trappole.
+## SLIDE 5 · "Gestisce dati deboli, mancanti e in conflitto" · 🎤 ELISEY (35 secondi)
+"Le quattro prove misuravano proprio questo: come il prototipo gestisce i dati deboli, mancanti o in conflitto.
 **Prova B:** gli hanno detto 'la domanda crescerà del 30% nel 2027', senza fonte. L'ha rifiutato: le stime vere dicono 2-5% all'anno.
 **Prova C:** dazio e fine della guerra. Li ha tenuti separati, e non ha dato per scontato che con la pace il gas costi meno, perché le sanzioni restano.
 **Prova D:** due clienti veri, Lattonedil e Isopan. Non c'erano dati e non li ha inventati.
