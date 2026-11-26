@@ -1,0 +1,32 @@
+Verifico esclusivamente l’archivio condiviso, senza cercare fonti esterne né trattare l’affermazione non documentata come evidenza reale.
+
+1. Decisione / conclusione: evidenze insufficienti.
+L’archivio non sostiene l’affermazione «la domanda europea di pannelli sandwich in PU aumenterà del 30% nel 2027». Nessuna evidenza contiene questa previsione specifica, riferita contemporaneamente a Europa, pannelli sandwich con anima PU, anno 2027 e crescita del 30%. L’affermazione non può essere usata come base fattuale della raccomandazione e non deve essere aggiunta all’archivio come fonte reale.
+
+2. Evidenze usate: ID, fonte, URL, data/periodo e sintesi.
+
+[E08] Fonte: MarketsandMarkets, “Europe Commercial Sandwich Panels”. URL: https://www.marketsandmarkets.com/Market-Reports/geography/commercial-sandwich-panels-market/Europe. Data della fonte: non indicata. Periodo: 2026-2031. Stima una crescita annua di circa il 2,3%, ma riguarda pannelli commerciali con tutti i materiali di anima. È classificata LIMITE, affidabilità C e DA_VERIFICARE. Non prova un +30% nel 2027. [E08]
+
+[E09] Fonte: MarkWide Research, “Europe Sandwich Panels Market”. URL: https://markwideresearch.com/europe-sandwich-panels-market. Data della fonte: non indicata. Periodo: 2026-2035. Indica una crescita annua del 5,40% per l’intero mercato europeo dei pannelli sandwich, senza isolare il PU. Metodo non pubblico, qualità LIMITE e affidabilità C. Non prova un +30% nel 2027. [E09]
+
+[E10] Fonte: IMARC Group, “Europe Sandwich Panels Market”. URL: https://www.imarcgroup.com/europe-sandwich-panels-market. Data della fonte: non indicata. Periodo: 2025-2034. Prevede una crescita annua del 4,30% nel 2026-2034 per tutti i segmenti e materiali. Metodo non pubblico, qualità LIMITE e affidabilità C. È una terza stima diversa da E08 ed E09 e non prova il +30% nel 2027. [E10]
+
+[E07] Fonte: Eurostat, “Production in construction”. URL: https://ec.europa.eu/eurostat/web/products-euro-indicators/w/4-19112026-ap. Data: 19 novembre 2026. Periodo: settembre 2026. La costruzione di edifici risultava in calo annuo del 4,0% nell’area euro e del 3,8% nell’UE. È un indicatore dell’edilizia generale, non una misura diretta della domanda di pannelli PU, ma non offre sostegno a un salto europeo del 30% nel breve periodo. [E07]
+
+3. Classificazione: scenario ipotetico non verificato.
+Il «+30% nel 2027» non è un FATTO perché mancano autore, URL, data, perimetro, valore iniziale e metodologia. Non è neppure un’INFERENZA calcolabile dalle evidenze disponibili. Può essere trattato soltanto come SCENARIO IPOTETICO, con l’assunzione esplicita che la domanda europea di pannelli sandwich PU cresca del 30% rispetto a una base da precisare. Le stime disponibili indicano crescite annue molto più contenute, ma non sono direttamente confrontabili perché differiscono per segmento, materiale, periodo e metodo [E08][E09][E10]. Non va fatta una media tra queste stime.
+
+4. Raccomandazione e motivazione.
+CONSIGLIO: il responsabile commerciale BASF Italia non deve usare il +30% come previsione centrale, target di vendita o giustificazione per aumentare scorte e capacità. Entro il primo trimestre 2027, deve costruire il piano commerciale su indicatori verificati per segmento e mantenere il +30% soltanto come scenario di stress, chiaramente etichettato come IPOTESI.
+
+Azione prioritaria: aggiornare trimestralmente il piano domanda distinguendo almeno edilizia generale, logistica/catena del freddo e data center, senza trasformare la crescita di un segmento nella crescita dell’intero mercato. L’edilizia generale risultava ancora debole a settembre 2026 [E07], mentre l’archivio segnala opportunità settoriali, ma non quantifica un aumento europeo complessivo del 30% [E24][E25][E26].
+
+KPI: disponibilità di una serie verificata sui volumi o metri quadrati di pannelli PU/PIR europei per 2025, 2026 e 2027; separazione per materiale e applicazione; confronto tra previsione e consuntivo ogni trimestre. Trigger: usare il +30% nella pianificazione solo se una fonte identificabile, con metodologia pubblica e perimetro coerente, dimostra la variazione rispetto a una base esplicita.
+
+5. Limiti, incertezze e confidenza.
+Confidenza: BASSA sul valore futuro della domanda, perché manca la fonte primaria dell’affermazione e le sole stime di mercato disponibili hanno qualità LIMITE, affidabilità C e metodologie non pubbliche [E08][E09][E10].
+
+Confidenza: ALTA sulla conclusione procedurale che il +30% non è sostenuto dall’archivio: nessuna delle 40 evidenze archiviate riporta tale previsione specifica. Mancano definizione di “domanda”, unità di misura, anno base, area geografica esatta, distinzione PU/PIR, segmenti inclusi, prezzi costanti o correnti, autore e metodo. Una verifica umana deve inoltre controllare che il dato non derivi da una fonte non ancora trasferita nell’archivio.
+
+6. Prossimo passo.
+RICHIESTA ALL’AGENTE 1: «Cercare una fonte primaria o un report con estratto verificabile che quantifichi la domanda europea di pannelli sandwich con anima PU/PIR nel 2026 e nel 2027. Riportare autore, titolo, URL completo, data, unità di misura, valore iniziale e finale, area geografica, segmenti inclusi e metodologia. Verificare separatamente se il 30% è una crescita annuale, cumulata, di volume, di valore oppure riferita a un singolo segmento. Se la fonte non viene trovata, registrare il dato come MANCANTE, non come evidenza reale.»

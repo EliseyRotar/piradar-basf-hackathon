@@ -1,0 +1,21 @@
+GRUPPO 10 - LOG DEL PASSAGGIO DATI E DELLA VERIFICA UMANA
+Esempio reale del flusso Agente 1 > verifica > archivio > Agente 2 (26/11/2026)
+
+1. RICHIESTA ALL'AGENTE 1: "Cerca evidenze recenti su Hormuz e sui costi di MDI e polioli in Europa e prepara le righe per l'archivio".
+2. OUTPUT AGENTE 1: 5 righe nuove E33-E37, tutte con STATO=DA_VERIFICARE, più conflitti, lacune, BLOCCO_HANDOFF e check umano.
+3. VERIFICA: aperti tutti e 5 gli URL e cercati i numeri nella pagina.
+   - E33 Al Jazeera: -40% e oltre 25 petroliere confermati. Aggiunto ai limiti: il -40% è nel titolo, base di confronto non chiara.
+   - E34 Argus: 250 EUR/t e PIR +20-50 EUR/t confermati. CORREZIONE: l'Agente 1 aveva omesso che il prezzo medio valutato di novembre SCENDE; aggiunto. Precisato che Argus parla di PIR boards, non di pannelli sandwich.
+   - E35 Argus: benzene 1.079 contro 566 EUR/t e TTF 81,10 contro 31,13 EUR/MWh confermati.
+   - E36 IMARC: 2,41 USD/kg +3,9% confermato. Segnalato conflitto apparente con E34.
+   - E37 Expert Market Research: 2.120 USD/t +3,9% confermato.
+4. ESITO: 5 righe salvate in archivio con STATO=VERIFICATO; QUALITA LIMITE e AFFIDABILITA C mantenute per E36 ed E37.
+5. ARCHIVIO aggiornato (37 righe) e skill archivio-g10 rigenerata e ricaricata in entrambi gli agenti.
+
+SECONDO CICLO (passaggio diretto con @menzione nella stessa chat di Microsoft 365 Copilot)
+1. In una nuova chat: @G10 Agente 1 "Cerca evidenze su Hormuz e prepara il BLOCCO_HANDOFF". Proposte 5 righe E38-E42 (fonti EIA), tutte DA_VERIFICARE.
+2. Nella stessa chat: @G10 Agente 2 "Usa il BLOCCO_HANDOFF qui sopra: quali clienti privilegiare?". L'Agente 2 ha letto e citato E38 ed E39 direttamente dalla risposta dell'Agente 1.
+3. VERIFICA: aperti i 3 URL EIA, tutti i numeri confermati (20 mln bbl/giorno, 20% LNG, 9,3 e 0,7 Bcf/giorno, oltre un quarto del petrolio via mare, bypass 5 e 1,5 mln bbl/giorno).
+   CORREZIONI: E39+E40 e E41+E42 erano coppie dalla stessa fonte, unite in due righe. URL ripuliti da parametri di tracciamento (".&utm", "&os=f"). Aggiunto il dato omesso: oleodotto saudita portato temporaneamente a 7 mln bbl/giorno nel 2019.
+4. ESITO: E38-E40 salvate come VERIFICATO. Archivio: 40 righe.
+5. CONTROLLO SULL'AGENTE 2: confidenza "MEDIA-ALTA" fuori scala e una quota "60-70%" senza fonte. Corrette le istruzioni (solo ALTA, MEDIA o BASSA, ogni numero senza ID va marcato IPOTESI).

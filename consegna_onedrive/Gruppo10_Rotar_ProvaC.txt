@@ -1,0 +1,135 @@
+Analizzo i due scenari in modo indipendente, usando solo le evidenze dell’archivio G10 e distinguendo rigorosamente fatti, inferenze e assunzioni.
+
+## Scenario 1 — Dazio UE del 15% per sei mesi
+
+1. Decisione / conclusione, oppure “evidenze insufficienti”.
+
+SCENARIO IPOTETICO. L’archivio non documenta questo dazio né specifica quale materia prima sia colpita. Non permette quindi di stabilire se riguardi MDI, polioli, catalizzatori, additivi o un’altra sostanza, né di calcolare l’aumento del costo effettivo del pannello.
+Conclusione: la raccomandazione cambia in senso prudenziale, ma solo per la materia prima e per i flussi commerciali effettivamente inclusi nel provvedimento.
+   * Produttore di pannelli: passare da un approccio ordinario a un piano temporaneo di protezione di costo e continuità, senza assumere che il costo della materia prima aumenti automaticamente del 15%.
+   * Fornitore chimico: dare priorità alla mappatura dell’esposizione dei clienti e alla continuità delle forniture UE o non soggette al dazio. Non è giustificato applicare un aumento generalizzato a tutti i sistemi PU/PIR.
+L’effetto effettivo dipende da origine doganale, codice della materia prima, quota importata extra-UE, disponibilità di produzione europea, contratti esistenti e possibilità di sostituzione. Queste informazioni non sono presenti nell’archivio.
+
+2. Evidenze usate: ID, fonte, URL, data/periodo e sintesi.
+
+   * [E34] Argus Media, https://www.argusmedia.com/de/news-and-insights/latest-market-news/2907965-pmdi-spread-widens-as-demand-diverges-by-sector, 23 novembre 2026, dati di novembre 2026. La valutazione dei contratti europei di PMDI mostra uno spread di 250 EUR/t; per gli isolanti PIR il PMDI risulta invariato o in aumento di circa 20-50 EUR/t. La capacità europea di MDI era stata ridotta di almeno il 20% tra settembre e ottobre, per poi rientrare in gran parte. La fonte riguarda PIR boards e non identifica specificamente i pannelli sandwich.
+   * [E35] Argus Media, stesso URL, 23 novembre 2026, dati settembre-ottobre 2026. Il benzene a contratto era mediamente pari a 1.079 EUR/t contro 566 EUR/t un anno prima; il gas TTF era a 81,10 EUR/MWh contro 31,13 EUR/MWh. Sono costi a monte dell’MDI, non prezzi pagati direttamente dal pannellista.
+   * [E14] ChemAnalyst, https://www.chemanalyst.com/NewsAndDeals/NewsDetails/mdi-prices-appreciate-2-3-in-europe-as-the-production-costs-41053, 6 febbraio 2026, seconda metà di gennaio 2026. I prezzi europei dell’MDI erano aumentati del 2,3% per scarsità dell’offerta e aumento dei costi delle materie prime.
+   * [E22] Ricerca dell’archivio su fonti gratuite, raccolta il 26 novembre 2026, periodo ottobre-novembre 2026. Non sono stati trovati i prezzi effettivamente pagati in Europa per MDI e polioli. L’evidenza è classificata MANCANTE.
+   * [E27] ECHEMI, https://www.echemi.com/cms/3206779.html, 27 agosto 2026, agosto 2026. La fonte riporta aumenti annunciati da Dow sui prodotti poliuretanici e un aumento di 250 EUR/t sull’MDI annunciato da Huntsman. Sono annunci di listino, non prezzi effettivamente pagati; la riga è DA_VERIFICARE e non regge da sola la raccomandazione.
+   * [E31] IndexBox, https://www.indexbox.io/blog/isocyanates-european-union-market-overview-2024-1/, 1º luglio 2026, dati 2024. Le importazioni UE di isocianati risultano diminuite del 28,8%, a 444.000 tonnellate. È una fonte privata, con dato da ricontrollare su UN Comtrade; non specifica la quota extra-UE utilizzata dai pannellisti italiani.
+   * [E29] Fastmarkets, https://www.fastmarkets.com/insights/inside-the-default-benchmark-spread-reshaping-eu-steel-trade/, 14 agosto 2026, periodo 2026-2035. La fonte stima che l’onere CBAM sul coil laminato a caldo importato possa superare il 15% nel 2026 usando valori emissivi di default. È un precedente relativo all’acciaio, non una prova dell’effetto del dazio ipotetico sulla materia prima PU.
+
+3. Classificazione: fatto, inferenza o scenario.
+
+   * SCENARIO: introduzione per sei mesi di un dazio UE del 15% su alcune importazioni extra-UE di una materia prima utilizzata nei pannelli PU. La materia prima non è identificata e l’evento non è documentato nell’archivio.
+   * FATTO: nel 2026 il mercato europeo dell’MDI ha già mostrato differenze di prezzo tra settori, fermate produttive e pressioni dei costi a monte [E14][E34][E35].
+   * FATTO: l’archivio non dispone del prezzo effettivamente pagato per MDI e polioli a ottobre-novembre 2026 [E22].
+   * INFERENZA: se la materia prima colpita è importata extra-UE senza un’alternativa immediata, il costo di approvvigionamento del flusso interessato potrebbe aumentare.
+   * INFERENZA: l’aumento non sarebbe necessariamente pari al 15% sul costo totale del pannello. Il dazio si applicherebbe al valore doganale della materia prima inclusa, mentre il pannello comprende anche lamiere, produzione, energia, trasporto e altri componenti.
+   * INFERENZA condizionale: una maggiore domanda di materiale prodotto nell’UE potrebbe aumentare la pressione sulle capacità europee. Questo passaggio è possibile, ma non quantificabile con l’archivio.
+   * INFERENZA condizionale: il fornitore chimico con catene di approvvigionamento non soggette al dazio potrebbe ottenere un vantaggio commerciale. L’archivio non contiene però la provenienza delle forniture BASF o dei concorrenti per la materia prima non specificata.
+
+4. Raccomandazione e motivazione.
+
+Azione prioritaria comune: attivare, alla pubblicazione del perimetro doganale, una mappa congiunta pannellista-fornitore per codice prodotto, origine doganale, contratto e alternativa tecnica.
+   * Per il produttore di pannelli: acquisti e pianificazione devono separare i volumi soggetti al dazio da quelli non soggetti, prima di aumentare scorte o modificare i prezzi. Per i nuovi preventivi è consigliabile prevedere una clausola temporanea di revisione legata al costo documentato della materia prima colpita. IPOTESI: questa misura riduce il rischio di assorbire costi non previsti senza trasferire automaticamente il 15% al cliente.
+   * Per il fornitore chimico: il responsabile commerciale e il supply planner devono offrire ai clienti una verifica dell’origine dei prodotti, delle formulazioni tecnicamente equivalenti e della capacità disponibile. Non va promessa una sostituzione prima delle prove di processo e di prestazione.
+Prodotti da proteggere: i sistemi PIR destinati a impieghi ad alto valore, perché il PMDI per isolanti PIR ha mostrato una dinamica di prezzo più sostenuta rispetto ad altri usi [E34]. BASF dispone inoltre di sistemi Elastopir con prestazioni dichiarate secondo EN 13501-2 e FM 4880 [E30].
+KPI verificabili, senza soglie inventate:
+   * quota dei volumi acquistati effettivamente soggetta al dazio;
+   * differenza tra prezzo consegnato di origine UE e prezzo extra-UE comprensivo di dazio;
+   * ordini confermati rispetto agli ordini richiesti;
+   * giorni di copertura delle sole materie prime coinvolte;
+   * margine per famiglia di pannello prima e dopo l’entrata in vigore.
+Trigger di cambiamento: la raccomandazione diventa più difensiva se il dazio comprende MDI o polioli rigidi, se una quota rilevante degli acquisti del cliente risulta soggetta al provvedimento o se diminuiscono gli ordini confermati. Può tornare ordinaria se sono disponibili alternative UE qualificate, se il dazio viene sospeso o se viene assorbito dal prezzo del fornitore.
+
+5. Limiti, incertezze e confidenza.
+
+Confidenza: BASSA.
+Mancano:
+   * la materia prima e il relativo codice doganale;
+   * i Paesi di origine inclusi ed eventuali esenzioni;
+   * la quota extra-UE negli acquisti del pannellista;
+   * la capacità europea sostitutiva;
+   * i prezzi effettivi di MDI e polioli [E22];
+   * le clausole dei contratti e la possibilità di trasferire i costi;
+   * l’impatto della misura su cambio, trasporto e tempi di consegna.
+Il conflitto tra il prezzo medio PMDI in calo indicato da Argus [E34] e l’aumento del 3,9% riportato da IMARC [E36] dipende probabilmente da grado, periodo e metodo di rilevazione diversi. Non va fatta una media tra i due dati.
+L’archivio basta per motivare monitoraggio, segmentazione dell’esposizione e protezione della continuità, ma non basta per stimare l’effetto economico del dazio o decidere un aumento di prezzo.
+
+6. Prossimo passo.
+
+RICHIESTA ALL’AGENTE 1: “Identificare il testo ufficiale del provvedimento ipotizzato o, se non disponibile, costruire la scheda dati necessaria: materia prima, codice CN/HS, Paesi colpiti, base imponibile, esenzioni e periodo esatto. Recuperare inoltre, da Eurostat Comext o UN Comtrade, importazioni UE e italiane per origine e codice, distinguendo MDI, altri isocianati e polioli ove possibile. Cercare capacità produttiva UE e prezzi contrattuali effettivi, non solo annunci di listino.”
+Prima di agire, una persona deve verificare classificazione doganale, origine preferenziale, compatibilità tecnica delle alternative e condizioni contrattuali.
+
+## Scenario 2 — Accordo stabile che pone fine alla guerra Russia-Ucraina
+
+1. Decisione / conclusione, oppure “evidenze insufficienti”.
+
+SCENARIO IPOTETICO. Al 17 novembre 2026 l’archivio non documenta un cessate il fuoco o un accordo di pace: i colloqui avevano prodotto un’intesa sullo scambio di prigionieri, ma nessuna svolta su cessate il fuoco, territori o sicurezza [E20][E21].
+Conclusione: nei primi sei mesi la raccomandazione sugli approvvigionamenti non cambia automaticamente. Lo scenario stabilisce che sanzioni e restrizioni commerciali restano invariate e non fornisce informazioni su energia, rotte logistiche o disponibilità delle materie prime.
+Cambia invece, in modo condizionale, la priorità commerciale:
+   * Produttore di pannelli: prepararsi a qualificare opportunità di ricostruzione, senza aumentare capacità o scorte sulla sola notizia dell’accordo.
+   * Fornitore chimico: predisporre un’offerta tecnica e una mappa dei pannellisti potenzialmente in grado di servire progetti in Ucraina. Mantenere invariato il piano di protezione della fornitura finché non emergano segnali verificabili su sanzioni, energia, trasporti e materie prime.
+
+2. Evidenze usate: ID, fonte, URL, data/periodo e sintesi.
+
+   * [E20] PRIO Peace Research Institute Oslo, https://www.prio.org/comments/1933, 17 novembre 2026, novembre 2026. I colloqui diretti Russia-Ucraina-USA del 10-11 novembre hanno prodotto un accordo di principio sullo scambio di prigionieri, ma nessuna svolta su cessate il fuoco, territori o sicurezza.
+   * [E21] Al Jazeera, https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates, 17 novembre 2026, novembre 2026. La fonte documenta posizioni negoziali e incontri programmati, ma nessun cessate il fuoco. La situazione era in evoluzione.
+   * [E01] World Bank, Commissione UE, ONU e Governo ucraino, RDNA5, https://www.worldbank.org/en/news/press-release/2026/02/23/updated-ukraine-recovery-and-reconstruction-needs-assessment-released, 23 febbraio 2026, danni al 31 dicembre 2025 e fabbisogno 2026-2035. Il fabbisogno di ricostruzione e ripresa è stimato in quasi 588 miliardi USD, con priorità 2026 superiori a 15 miliardi USD. È un fabbisogno stimato, non domanda acquisita di pannelli.
+   * [E16] UN Comtrade, https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=380&period=2024&partnerCode=804&cmdCode=730890&flowCode=X, estrazione del 26 novembre 2026, dati 2021-2024. L’export italiano HS 730890 verso l’Ucraina era pari a 2,5 milioni USD nel 2024, mentre l’import totale ucraino dello stesso codice era 64,2 milioni USD. Il codice comprende numerose strutture in acciaio, non soltanto pannelli sandwich.
+   * [E15] UN Comtrade, https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=380&period=2024&partnerCode=0&cmdCode=730890&flowCode=X,M, estrazione del 26 novembre 2026, dati 2023-2025. L’export italiano HS 730890 era pari a 1.436,1 milioni USD nel 2025. Il codice è più ampio dei soli pannelli, ma mostra una base industriale italiana orientata all’esportazione.
+   * [E30] BASF, pagina Elastopir, https://plastics-rubber.basf.com/emea/en/performance_polymers/products/elastopir, pagina 2026, prodotto attuale. Elastopir presenta prestazioni dichiarate EN 13501-2 REI 30 con 100 mm, REI 60 con 200 mm e FM 4880 classe 1. Elastopir Blue è descritto come sistema PIR a basso lambda espanso con HFO.
+   * [E18] BASF, https://www.basf.com/global/en/media/news-releases/2021/11/p-21-373, 12 novembre 2021. BASF dichiara che Elastopor ed Elastopir realizzati con il metodo Biomass Balance mantengono la stessa qualità dei sistemi convenzionali e consentono l’attribuzione di materie prime rinnovabili fino al 100%. La fonte è aziendale e datata.
+
+3. Classificazione: fatto, inferenza o scenario.
+
+   * SCENARIO: accordo stabile che pone fine alla guerra, con sanzioni e restrizioni commerciali invariate per i primi sei mesi.
+   * FATTO: al 17 novembre 2026 non risultava raggiunto un cessate il fuoco [E20][E21].
+   * FATTO: esiste un fabbisogno di ricostruzione stimato in quasi 588 miliardi USD [E01].
+   * FATTO: nel 2024 erano già presenti importazioni ucraine del codice HS 730890 e limitate esportazioni italiane verso l’Ucraina [E16]. Il codice non identifica precisamente i pannelli sandwich.
+   * INFERENZA condizionale: un accordo stabile potrebbe rendere più realizzabili alcuni programmi di ricostruzione, ma soltanto se arrivano finanziamenti, gare, garanzie di pagamento e condizioni operative adeguate.
+   * INFERENZA condizionale: una parte dei programmi relativi a edifici industriali, logistici, pubblici o temporanei potrebbe generare domanda di pannelli isolanti. L’archivio non indica quale quota del fabbisogno riguarderebbe pannelli PU/PIR.
+   * INFERENZA: mantenendo invariate le sanzioni, non è giustificato presumere un ritorno immediato di materie prime russe, una riduzione dei prezzi energetici o la riapertura di specifiche rotte commerciali.
+   * INFERENZA: non è giustificato collegare automaticamente la fine della guerra Russia-Ucraina alla riduzione delle pressioni provenienti dal Medio Oriente, che nell’archivio incidono su benzene, gas, logistica e MDI [E11][E33][E35].
+
+4. Raccomandazione e motivazione.
+
+Azione prioritaria: preparare un “pacchetto ricostruzione” tecnico-commerciale, ma subordinare investimenti, scorte dedicate e capacità aggiuntiva a ordini o programmi finanziati verificabili.
+   * Per il produttore di pannelli: nei primi sei mesi mantenere il piano di approvvigionamento esistente. In parallelo, qualificare partner locali, requisiti tecnici, certificazioni, trasporto, assicurazione del credito e gare finanziate da istituzioni pubbliche. Evitare produzione speculativa senza ordini.
+   * Per il fornitore chimico: il responsabile commerciale BASF Italia dovrebbe identificare i pannellisti italiani con capacità di esportazione e predisporre combinazioni di sistemi PIR ad alte prestazioni al fuoco e isolamento [E30], includendo opzioni Biomass Balance quando richieste dalla gara [E18].
+Motivazione: il fabbisogno di ricostruzione è ampio [E01], ma non equivale a domanda finanziata. L’export italiano verso l’Ucraina nel codice ampio HS 730890 era ancora limitato nel 2024 [E16]. La scelta più prudente è quindi aumentare la preparazione commerciale, non la capacità produttiva.
+KPI verificabili:
+   * numero e valore delle gare finanziate che includono involucri isolati o edifici prefabbricati;
+   * ordini confermati di pannelli destinati all’Ucraina;
+   * copertura assicurativa e condizioni di pagamento disponibili;
+   * tempi di transito effettivi e continuità delle rotte;
+   * richieste di specifiche PIR, resistenza al fuoco, basso lambda o contenuto attribuito rinnovabile;
+   * variazioni ufficiali di sanzioni e restrizioni commerciali.
+Trigger che fanno cambiare la raccomandazione:
+   * verso maggiore espansione: pubblicazione di gare finanziate, ordini vincolanti, garanzie di pagamento e rotte operative affidabili;
+   * verso maggiore cautela: assenza di finanziamenti, ritardi nelle gare, problemi assicurativi o di pagamento, ripresa delle ostilità;
+   * sugli approvvigionamenti: cambiamento documentato di sanzioni, prezzi energetici, disponibilità MDI/polioli o rotte. Senza questi segnali il piano di fornitura non cambia.
+
+5. Limiti, incertezze e confidenza.
+
+Confidenza: BASSA.
+L’archivio dimostra l’esistenza di un grande fabbisogno di ricostruzione [E01], ma non contiene:
+   * un accordo di pace effettivamente firmato e verificato;
+   * il calendario dei programmi di ricostruzione;
+   * finanziamenti assegnati e gare per pannelli sandwich;
+   * specifiche tecniche ucraine applicabili ai pannelli PU/PIR;
+   * volumi, prezzi o capacità richiesti;
+   * condizioni di assicurazione, pagamento e trasporto;
+   * dati doganali specifici per i pannelli sandwich;
+   * effetti dell’accordo su energia, rotte logistiche e materie prime.
+Il dato HS 730890 [E16] comprende tutte le strutture in acciaio del codice e non può essere trattato come volume di pannelli. La stima RDNA5 [E01] rappresenta un fabbisogno economico complessivo e non una previsione di vendite.
+La raccomandazione commerciale cambia solo verso una maggiore preparazione. Non cambia ancora verso investimenti produttivi, accumulo di scorte o riduzione delle misure di sicurezza della fornitura.
+
+6. Prossimo passo.
+
+RICHIESTA ALL’AGENTE 1: “Cercare fonti ufficiali su fondi effettivamente stanziati, gare pubblicate e programmi di ricostruzione ucraini relativi a edifici industriali, logistici, pubblici, sanitari, scolastici e catena del freddo. Identificare codici doganali più specifici dei pannelli sandwich e dati per l’export UE/Italia verso l’Ucraina. Raccogliere inoltre requisiti tecnici, antincendio, energetici, assicurativi e di origine previsti nelle gare finanziate da UE, World Bank, EBRD o Governo ucraino.”
+La verifica umana deve confermare validità dell’accordo, fonti dei finanziamenti, sanzioni applicabili, solvibilità delle controparti, copertura assicurativa e conformità tecnica. I due scenari restano separati: la fine della guerra Russia-Ucraina non viene usata per presumere riduzioni di prezzi, miglioramenti logistici o maggiore disponibilità di materie prime.
+
+Sintesi finale: nel primo scenario cambia la gestione del rischio di costo, ma soltanto dopo aver identificato materia prima e importazioni colpite. Nel secondo cambia la preparazione commerciale verso la ricostruzione, non il piano di approvvigionamento dei primi sei mesi. In entrambi i casi l’archivio è insufficiente per quantificare l’effetto o autorizzare investimenti irreversibili.

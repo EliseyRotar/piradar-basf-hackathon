@@ -1,0 +1,61 @@
+Consulto esclusivamente l’archivio condiviso del Gruppo 10, poi distinguerò con chiarezza ciò che è documentato da ciò che manca su Lattonedil e Isopan.
+
+1. Decisione / conclusione, oppure “evidenze insufficienti”.
+Evidenze insufficienti per proporre un investimento o un impegno commerciale rilevante specifico con Lattonedil e Isopan, soprattutto esteso ai loro stabilimenti esteri. L’archivio documenta l’attrattività potenziale dei pannelli PIR ad alte prestazioni e a minore impronta carbonica, ma non contiene dati verificati sui due clienti, sui loro siti produttivi, sui sistemi PU/PIR impiegati o sulla loro domanda commerciale.
+
+Le tre informazioni mancanti più importanti sono:
+   1. Mappa verificata degli stabilimenti e dei fabbisogni per linea produttiva. Servono Paese, capacità utilizzata, volumi annui di pannelli PU/PIR, sistema chimico ed espandente usato, fornitore attuale e date di rinnovo dei contratti. Perché potrebbe cambiare la raccomandazione: potrebbe mostrare che il potenziale principale non è in Italia, oppure che alcune linee non sono tecnicamente compatibili o non hanno capacità libera. Come ottenerla: questionario tecnico-commerciale convalidato dai responsabili acquisti e produzione di ciascun sito, seguito da una visita tecnica o da una sessione remota per linea.
+   2. Domanda commerciale concreta dei clienti finali. Servono pipeline di progetti per logistica, catena del freddo, data center ed edifici soggetti ai requisiti della direttiva EPBD, con Paese, metri quadrati, specifiche antincendio, isolamento e requisiti di impronta carbonica. Perché potrebbe cambiare la raccomandazione: senza ordini o gare identificabili, un prodotto a maggiore prestazione o Biomass Balance potrebbe tradursi solamente in un costo aggiuntivo. Come ottenerla: revisione congiunta, soggetta ad accordo di riservatezza, delle opportunità commerciali dei prossimi 12 mesi e interviste a un piccolo gruppo di clienti o progettisti selezionati da Lattonedil e Isopan.
+   3. Economica reale della conversione. Servono prezzo netto e consumo effettivo di PMDI e polioli, sovrapprezzo accettabile, costi e scarti della prova, impatto sulla velocità della linea e disponibilità a pagare del mercato. Perché potrebbe cambiare la raccomandazione: l’archivio non ha trovato i prezzi effettivamente pagati per MDI e polioli nel periodo ottobre-novembre 2026 [E22]; inoltre, per il PMDI destinato agli isolanti PIR sono stati osservati prezzi invariati o maggiori di circa 20-50 EUR/t, nonostante il calo della media generale [E34]. Il margine potrebbe quindi essere insufficiente anche in presenza di interesse tecnico. Come ottenerla: modello economico condiviso per singolo sito, alimentato con fatture o prezzi contrattuali anonimizzati, distinta base, scarti, consumo per metro quadrato e offerte commerciali reali.
+
+2. Evidenze usate: ID, fonte, URL, data/periodo e sintesi.
+   * [E02] Commissione europea, Direttiva EPBD (UE) 2024/1275; URL: https://energy.ec.europa.eu/topics/energy-efficiency/energy-performance-buildings/energy-performance-buildings-directive_en; direttiva dell’8 maggio 2024, pagina aggiornata nel 2026, periodo 2028-2030. Il GWP, potenziale di riscaldamento globale sul ciclo di vita, dovrà essere calcolato e indicato dal 2028 per i nuovi edifici sopra 1.000 m² e dal 2030 per tutti i nuovi edifici. Il recepimento italiano non è verificato [E02].
+   * [E04] Commissione europea, Regolamento delegato (UE) 2026/52; URL: https://energy.ec.europa.eu/topics/energy-efficiency/energy-performance-buildings/energy-performance-buildings-directive_en; 4 maggio 2026, periodo dal 2026. È stato pubblicato il quadro europeo per rendere comparabili i metodi nazionali di calcolo del GWP degli edifici [E04].
+   * [E07] Eurostat, produzione nelle costruzioni; URL: https://ec.europa.eu/eurostat/web/products-euro-indicators/w/4-19112026-ap; 19 novembre 2026, dati di settembre 2026. La costruzione di edifici era ancora in calo del 4,0% annuo nell’area euro e del 3,8% nell’UE [E07].
+   * [E24] CBRE, Italy Industrial and Logistics Market Figures Q3 2026; URL: https://www.cbre.com/insights/figures/italy-industrial-logistics-market-figures-q3-2026; 21 ottobre 2026, terzo trimestre 2026. L’archivio riporta circa 811.000 m² di assorbimento logistico e industriale in Italia. La riga è DA_VERIFICARE e misura spazi affittati, non pannelli venduti, quindi non può sostenere da sola la raccomandazione [E24].
+   * [E25] Italian Datacenter Association tramite The Next Web; URL: https://thenextweb.com/news/italy-data-centre-investment-37-billion; 8 ottobre 2026, previsione 2025-2036. È prevista una crescita della capacità dei data center commerciali italiani fino a 2,3 GW nel 2031. È una previsione di settore, non un dato consuntivo [E25].
+   * [E30] BASF, pagina prodotto Elastopir; URL: https://plastics-rubber.basf.com/emea/en/performance_polymers/products/elastopir; pagina 2026, prodotto attuale. Elastopir dichiara prestazioni antincendio REI 30 con 100 mm, REI 60 con 200 mm e FM 4880 classe 1 [E30].
+   * [E18] BASF, comunicato UTECH; URL: https://www.basf.com/global/en/media/news-releases/2021/11/p-21-373; 12 novembre 2021. BASF dichiara che Elastopor ed Elastopir Biomass Balance possono sostituire contabilmente fino al 100% delle risorse fossili con materie prime rinnovabili, mantenendo la qualità dei sistemi convenzionali. La fonte è però del 2021 e non dimostra la domanda attuale [E18].
+   * [E22] Ricerca dell’archivio su fonti gratuite; periodo ottobre-novembre 2026. Non sono stati trovati i prezzi effettivamente pagati in Europa per MDI e polioli [E22].
+   * [E34] Argus Media; URL: https://www.argusmedia.com/de/news-and-insights/latest-market-news/2907965-pmdi-spread-widens-as-demand-diverges-by-sector; 23 novembre 2026, dati di novembre 2026. La fascia dei contratti europei PMDI si è allargata a 250 EUR/t; per gli isolanti PIR i prezzi risultavano invariati o aumentati di circa 20-50 EUR/t [E34].
+
+3. Classificazione: fatto, inferenza o scenario.
+   * FATTO: esistono requisiti europei già pubblicati sul calcolo del GWP degli edifici [E02][E04].
+   * FATTO: BASF dispone di sistemi PIR con prestazioni antincendio dichiarate e di un’offerta Biomass Balance [E18][E30].
+   * FATTO: l’archivio non contiene il prezzo effettivamente pagato dai pannellisti per MDI e polioli nel periodo più recente considerato [E22].
+   * INFERENZA: logistica, catena del freddo e data center potrebbero essere segmenti più adatti di un’offerta generica per l’edilizia, dato il calo della costruzione di edifici e i segnali settoriali disponibili [E07][E24][E25].
+   * IPOTESI: Lattonedil e Isopan potrebbero valorizzare Elastopir ad alte prestazioni o Biomass Balance nei propri siti italiani ed esteri. L’archivio non contiene evidenze specifiche che lo confermino.
+   * SCENARIO BASE: prosegue la preparazione del mercato europeo ai requisiti GWP del 2028-2030, mentre nel breve la domanda edilizia generale rimane debole [E02][E04][E07]. Il futuro resta una stima.
+
+4. Raccomandazione e motivazione.
+CONSIGLIO: il responsabile commerciale BASF Italia, con il supporto tecnico applicativo e sostenibilità, dovrebbe proporre entro il primo trimestre 2027 un solo test tecnico-commerciale reversibile, effettuato su una linea italiana oppure estera scelta congiuntamente con Lattonedil o Isopan. La data è una IPOTESI operativa, non deriva dall’archivio.
+
+Il test dovrebbe comprendere:
+   * produzione di un lotto limitato di pannelli PIR con una formulazione Elastopir già industrializzata [E30];
+   * in alternativa o in combinazione, certificazione Biomass Balance su una quota circoscritta del lotto [E18];
+   * confronto con il prodotto ordinario su qualità, adesione, scarti, velocità della linea, prestazione termica e antincendio;
+   * presentazione del lotto a un progetto reale di logistica, catena del freddo o data center indicato dal cliente.
+Trigger per proseguire, tutti IPOTESI da concordare prima del test:
+   * nessuna perdita rispetto al prodotto ordinario nelle prove tecniche e nei requisiti di qualità della linea;
+   * aumento di scarti non superiore a 1 punto percentuale e riduzione della velocità non superiore al 5%;
+   * almeno un’offerta commerciale reale o una lettera d’interesse per il lotto entro 60 giorni;
+   * margine di contribuzione non inferiore a quello del prodotto convenzionale, includendo il sovrapprezzo della soluzione.
+Trigger per fermare: mancato superamento di un requisito obbligatorio, impatto persistente sulla linea oltre le soglie concordate, nessun progetto commerciale identificato entro 60 giorni oppure margine inferiore al convenzionale senza disponibilità del cliente finale a riconoscere il sovrapprezzo.
+
+La prova è preferibile a un accordo pluriennale perché verifica contemporaneamente compatibilità tecnica, valore commerciale e sostenibilità economica, mantenendo limitato e reversibile l’impegno.
+
+5. Limiti, incertezze e confidenza.
+Confidenza: BASSA. Mancano evidenze dirette e verificate su Lattonedil e Isopan, sulla collocazione e specializzazione dei loro stabilimenti esteri, sui fornitori esistenti, sui volumi di PU/PIR e sulla pipeline commerciale. Non è quindi possibile stabilire quale azienda, sito o formulazione debba essere prioritaria.
+
+Il dato logistico italiano è ancora DA_VERIFICARE e non misura direttamente la domanda di pannelli [E24]. La previsione sui data center è un’INFERENZA di settore [E25]. L’offerta Biomass Balance è documentata, ma le fonti disponibili non provano la disponibilità a pagare attuale dei clienti [E18][E19]. I prezzi PMDI presentano inoltre perimetri e direzioni differenti: Argus segnala un prezzo medio in discesa ma prezzi PIR invariati o in aumento [E34], mentre IMARC indica un aumento generale del 3,9%, con metodo e grado non specificati [E36]. Non va fatta una media tra queste fonti.
+
+Prima di agire, una persona deve verificare contratti, vincoli tecnici, certificazioni applicabili nei diversi Paesi e risultati della linea. Non sono stati utilizzati dati personali.
+
+6. Prossimo passo.
+RICHIESTA ALL’AGENTE 1 pronta da incollare:
+
+“Cercare e inserire nell’archivio, separatamente per Lattonedil e Isopan:
+   1. elenco verificato degli stabilimenti produttivi in Italia e all’estero, con Paese, prodotti realizzati, numero o tipologia delle linee continue PU/PIR e, se pubblico, capacità produttiva; preferire siti aziendali, bilanci, dichiarazioni ambientali di prodotto e documenti autorizzativi;
+   2. evidenze pubbliche 2024-2026 su progetti, gare, certificazioni o offerte rivolte a logistica, catena del freddo e data center, indicando metri quadrati, requisiti al fuoco, lambda, GWP o contenuto bio quando disponibili;
+   3. evidenze sul sistema isolante, sull’espandente, sui fornitori PU/PIR attuali e sull’esistenza di prodotti a basso carbonio o Biomass Balance. Se i dati non sono pubblici, registrare esplicitamente STATO=MANCANTE e preparare un elenco di domande da rivolgere ai clienti.”
+Dopo questa verifica, selezionare un solo sito con linea compatibile e opportunità commerciale identificata, quindi concordare per iscritto KPI e criteri di arresto prima di produrre il lotto pilota.

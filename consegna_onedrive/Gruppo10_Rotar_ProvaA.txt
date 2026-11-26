@@ -1,0 +1,104 @@
+Leggo l’archivio condiviso e seleziono solo evidenze verificate pertinenti a domanda, prestazioni PU/PIR, norme e fornitura. Poi formulo una sola azione misurabile.
+
+1. Decisione / conclusione
+
+Decisione: nei prossimi 6–12 mesi BASF dovrebbe valutare con un produttore italiano il lancio di un progetto pilota commerciale e produttivo per pannelli continui PIR destinati a logistica refrigerata e data center, usando un sistema Elastopir ad alte prestazioni al fuoco e isolamento, con una variante Biomass Balance documentata.
+
+Il progetto dovrebbe comprendere:
+   * qualifica del sistema sulla linea continua del pannellista;
+   * documentazione delle prestazioni al fuoco e ambientali;
+   * protezione della disponibilità di PMDI mediante previsioni trimestrali condivise e un accordo di fornitura con volumi flessibili;
+   * coinvolgimento di almeno un cliente o progettista dei segmenti logistica refrigerata o data center.
+IPOTESI: questa azione è preferibile a un’iniziativa rivolta all’edilizia generica perché consente al pannellista di differenziarsi per prestazioni, mentre la costruzione di edifici nell’UE rimane debole e i costi del PMDI per applicazioni PIR sono sotto pressione [E07][E34][E35].
+
+2. Evidenze usate: ID, fonte, URL, data/periodo e sintesi
+
+   * [E07] Fonte: Eurostat, “Production in construction”.
+URL: https://ec.europa.eu/eurostat/web/products-euro-indicators/w/4-19112026-ap
+Data fonte: 19 novembre 2026. Periodo: settembre 2026.
+Evidenza: la costruzione di edifici nell’area euro risultava inferiore del 4,0% rispetto a settembre 2025; nell’UE il calo era del 3,8%. È un dato mensile rivedibile, ma indica debolezza della nuova edilizia [E07].
+   * [E25] Fonte: Italian Datacenter Association, riportata da The Next Web.
+URL: https://thenextweb.com/news/italy-data-centre-investment-37-billion
+Data fonte: 8 ottobre 2026. Periodo: previsione 2025–2036.
+Evidenza: l’associazione prevede che la capacità dei data center commerciali italiani cresca fino a 2,3 GW entro il 2031 e stima investimenti fino a 36,9 miliardi di euro entro il 2036 [E25]. La previsione proviene da un’associazione interessata e non è un dato consuntivo.
+   * [E26] Fonte: Savills, “Pan-European occupier themes 2026”.
+URL: https://www.savills.com/research_articles/255800/386469-0
+Data e periodo: 2026.
+Evidenza: Savills segnala una crescita della richiesta di magazzini per la catena del freddo da parte dei settori alimentare e farmaceutico, con maggiore attività anche nell’Europa meridionale [E26]. Il dato è qualitativo e non specifico per l’Italia.
+   * [E30] Fonte: BASF, pagina prodotto Elastopir.
+URL: https://plastics-rubber.basf.com/emea/en/performance_polymers/products/elastopir
+Data fonte: pagina corrente 2026. Periodo: prodotto attuale.
+Evidenza: BASF dichiara per Elastopir una resistenza al fuoco EN 13501-2 REI 30 con 100 mm e REI 60 con 200 mm, oltre allo standard FM 4880 classe 1; Elastopir Blue è presentato come sistema PIR a basso lambda [E30]. Sono dichiarazioni commerciali BASF e devono essere confermate sulla configurazione concreta del pannello.
+   * [E18] Fonte: BASF, comunicato UTECH 2021.
+URL: https://www.basf.com/global/en/media/news-releases/2021/11/p-21-373
+Data fonte e periodo: 12 novembre 2021.
+Evidenza: BASF dichiara che Elastopor ed Elastopir da materie prime rinnovabili mantengono la stessa qualità dei sistemi convenzionali e che, tramite Biomass Balance, le risorse fossili possono essere sostituite contabilmente fino al 100% [E18]. Il bilancio di massa attribuisce la quota rinnovabile tramite un sistema certificato: non significa che tale quota sia fisicamente misurabile nel singolo pannello.
+   * [E02] Fonte: Commissione europea, Direttiva EPBD (UE) 2024/1275.
+URL: https://energy.ec.europa.eu/topics/energy-efficiency/energy-performance-buildings/energy-performance-buildings-directive_en
+Data fonte: 8 maggio 2024, pagina aggiornata nel 2026. Periodo: 2028–2030.
+Evidenza: il potenziale di riscaldamento globale, GWP, lungo il ciclo di vita dovrà essere calcolato e indicato per i nuovi edifici sopra 1.000 m² da gennaio 2028 e per tutti i nuovi edifici da gennaio 2030 [E02]. Il recepimento italiano non è documentato nell’archivio.
+   * [E34] Fonte: Argus Media, “PMDI spread widens as demand diverges by sector”.
+URL: https://www.argusmedia.com/de/news-and-insights/latest-market-news/2907965-pmdi-spread-widens-as-demand-diverges-by-sector
+Data fonte: 23 novembre 2026. Periodo: novembre 2026.
+Evidenza: l’intervallo delle valutazioni dei contratti europei di PMDI ha raggiunto 250 euro/t; per gli isolanti PIR il PMDI risultava stabile o in aumento di circa 20–50 euro/t. La capacità europea era stata ridotta di almeno il 20% tra settembre e ottobre, per poi rientrare in gran parte [E34]. Argus parla di isolanti PIR, non specificamente di pannelli sandwich continui.
+   * [E35] Fonte: Argus Media.
+URL: https://www.argusmedia.com/de/news-and-insights/latest-market-news/2907965-pmdi-spread-widens-as-demand-diverges-by-sector
+Data fonte: 23 novembre 2026. Periodo: settembre–ottobre 2026.
+Evidenza: il benzene a contratto era mediamente pari a 1.079 euro/t, contro 566 euro/t un anno prima; il gas TTF era pari a 81,10 euro/MWh, contro 31,13 euro/MWh [E35]. Sono costi a monte, non prezzi effettivamente pagati dal pannellista.
+
+3. Classificazione: fatto, inferenza o scenario
+
+FATTI:
+   * la costruzione di edifici nell’area euro era ancora in calo su base annua a settembre 2026 [E07];
+   * BASF dispone di sistemi PIR con prestazioni dichiarate al fuoco e di isolamento utilizzabili nei pannelli [E30];
+   * BASF dispone di un’offerta Biomass Balance già applicata ai sistemi per pannelli sandwich [E18];
+   * il quadro europeo introduce progressivamente il calcolo del GWP degli edifici [E02];
+   * a novembre 2026 il PMDI destinato agli isolanti PIR mostrava una dinamica di prezzo più sostenuta rispetto ad altri impieghi [E34].
+INFERENZE:
+   * IPOTESI: data center e catena del freddo possono essere segmenti più promettenti dell’edilizia generica per pannelli PIR ad alte prestazioni [E07][E25][E26].
+   * IPOTESI: combinare prestazioni al fuoco, isolamento e Biomass Balance può aiutare il pannellista a difendere il margine, evitando di competere soltanto sul prezzo [E18][E30].
+   * IPOTESI: un accordo di previsione e fornitura può ridurre il rischio di acquisti tardivi durante nuove fermate produttive o aumenti del PMDI [E34][E35].
+SCENARIO BASE: nei prossimi 6–12 mesi prosegue una domanda edilizia generale debole, mentre rimangono pressioni e volatilità sui costi delle materie prime PU [E07][E34][E35]. È una stima derivata dalle tendenze documentate, non una previsione certa.
+
+SCENARIO IPOTETICO: un’accelerazione degli investimenti italiani in data center o celle refrigerate genera ordini aggiuntivi di pannelli PIR. L’archivio non dimostra direttamente la conversione da investimenti o assorbimento immobiliare a metri quadrati di pannelli [E25][E26].
+
+4. Raccomandazione e motivazione
+
+CONSIGLIO: il responsabile commerciale BASF Italia, insieme all’assistenza tecnica PU, dovrebbe avviare entro il secondo trimestre 2027 un progetto pilota con un produttore italiano di pannelli continui.
+
+Il progetto dovrebbe:
+   * selezionare una configurazione PIR dedicata a data center oppure catena del freddo;
+   * eseguire una prova industriale sulla linea continua;
+   * verificare adesione, densità, stabilità dimensionale, conducibilità termica e comportamento al fuoco del pannello completo;
+   * preparare una versione convenzionale e una Biomass Balance, con documentazione ambientale utilizzabile dal cliente;
+   * associare al pilota una previsione trimestrale del fabbisogno di PMDI e polioli.
+KPI proposti, tutti IPOTESI perché non derivano da un ID:
+   * una prova di linea completata entro il secondo trimestre 2027;
+   * una configurazione di pannello validata tecnicamente;
+   * almeno un progetto commerciale qualificato nei segmenti scelti;
+   * previsione trimestrale del fabbisogno condivisa tra BASF e pannellista;
+   * nessuna fermata di linea dovuta a indisponibilità del sistema BASF durante il pilota.
+Motivazione: BASF può usare prodotti già disponibili [E18][E30], orientandoli verso segmenti potenzialmente più dinamici [E25][E26], mentre protegge il pannellista dalla volatilità del PMDI [E34][E35]. La proposta è verificabile con una prova di linea e con ordini reali, senza richiedere subito un investimento industriale su larga scala.
+
+5. Limiti, incertezze e confidenza
+
+Confidenza: MEDIA.
+
+La raccomandazione è sostenuta da evidenze verificate sull’andamento dell’edilizia, sull’offerta BASF, sulla normativa e sui costi del PMDI [E02][E07][E18][E30][E34][E35]. Tuttavia:
+   * la crescita dei data center è una previsione di settore, non un dato consuntivo sugli ordini di pannelli [E25];
+   * l’evidenza sulla catena del freddo è qualitativa e non specifica per l’Italia [E26];
+   * manca il prezzo effettivamente pagato dal pannellista italiano per PMDI e polioli a ottobre–novembre 2026 [E22];
+   * mancano dati italiani verificati sui metri quadrati di pannelli PU/PIR richiesti dai singoli segmenti;
+   * manca il confronto economico fra sistema PIR convenzionale, soluzione Biomass Balance e prodotti concorrenti;
+   * le prestazioni indicate da BASF devono essere validate sul pannello completo, sulla specifica linea produttiva e secondo le certificazioni richieste dal mercato [E30];
+   * non è documentato nell’archivio lo stato del recepimento italiano della EPBD [E02].
+Trigger di revisione: riesaminare la raccomandazione ogni trimestre se diminuiscono gli ordini qualificati nei segmenti scelti, se emergono forti variazioni dei prezzi effettivi di PMDI e polioli, se cambiano le regole italiane sul GWP o se la prova di linea non raggiunge le prestazioni tecniche richieste. Le soglie numeriche devono essere concordate con il pannellista perché l’archivio non contiene i suoi costi, volumi o margini.
+
+6. Prossimo passo
+
+Organizzare un workshop tecnico-commerciale tra BASF e il pannellista per scegliere un solo caso d’uso iniziale, data center oppure catena del freddo, raccogliere i requisiti del pannello e definire il protocollo della prova di linea.
+
+RICHIESTA ALL’AGENTE 1, pronta da incollare:
+“Cercare e inserire nell’archivio: 1) dati consuntivi 2025–2026, da fonti primarie, sui nuovi data center e magazzini refrigerati costruiti o autorizzati in Italia, includendo superficie e localizzazione; 2) domanda o consumo italiano di pannelli sandwich continui PU/PIR per segmento applicativo; 3) prezzi effettivi, non annunci di listino, di PMDI e polioli rigidi in Italia o Europa nell’ultimo trimestre 2026; 4) stato del recepimento italiano della Direttiva EPBD e requisiti nazionali su GWP ed EPD. Riportare URL, data, periodo, qualità e stato di verifica.”
+
+Prima di procedere, una persona deve verificare con il cliente i volumi, le specifiche antincendio, la compatibilità della linea, il premio di prezzo accettabile e la disponibilità contrattuale delle materie prime. Non sono stati usati dati personali; fatti, inferenze e scenari sono separati.
