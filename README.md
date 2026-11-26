@@ -4,6 +4,8 @@
 
 **Il radar di mercato per i pannelli sandwich PU/PIR.** È il prototipo del Gruppo 10 (ITIS Marconi di Dalmine) per l'Hackathon BASF "MarketStrategist" del 26 novembre 2026: due agenti su Microsoft 365 Copilot che trasformano fonti pubbliche verificate in una decisione per BASF e per i produttori di pannelli.
 
+**▶ Presentazione online:** https://eliseyrotar.github.io/piradar-basf-hackathon/ (frecce per cambiare slide, F per lo schermo intero)
+
 > **La sfida:** come può un fornitore di soluzioni chimiche come BASF aiutare i produttori di pannelli sandwich continui in poliuretano ad anticipare un cambiamento di mercato?
 
 ## La decisione
