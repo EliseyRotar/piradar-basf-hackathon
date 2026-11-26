@@ -53,6 +53,9 @@ section.dark .brand .wm { color: #F5F4EE; }
 section.dark .brand .wm span { color: #3FC1B0; }
 .foot { position: absolute; left: 128px; bottom: 48px; width: 1664px; font-size: 24px; color: #7A8796; }
 section.dark .foot { color: #8FA3B1; }
+.ico { width: 64px; height: 64px; }
+.bar { height: 18px; border-radius: 9px; background: #2A4466; display: flex; }
+.bar .fill { width: 87.5%; height: 18px; border-radius: 9px; background: #3FC1B0; }
 .speaker { position: absolute; left: 128px; bottom: 44px; font-family: 'Space Grotesk', Arial, sans-serif; font-size: 24px; font-weight: 600; padding: 6px 20px; border-radius: 30px; background: #DCEFEA; color: #135E56; white-space: nowrap; }
 section.dark .speaker { background: #1A3352; color: #3FC1B0; }
 section.accent .speaker { background: #10233D; color: #F5F4EE; }
@@ -77,13 +80,26 @@ section.accent .speaker { background: #10233D; color: #F5F4EE; }
 <p class="speaker">🎤 Ahmed</p>
 
 </section>
+<section id="team">
+<p class="eyebrow">IL TEAM · CHI HA FATTO COSA</p>
+<h2>Quattro persone, quattro ruoli</h2>
+<div class="row">
+<div class="card in" style="--i:0"><svg class="ico" aria-label="Ricerca" viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#1E8C80" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-5-5" stroke="#E8833A"/></svg><h3>Federico Roncalli</h3><p class="tag">Ricerca</p><p class="lab">Ha cercato e selezionato le fonti dell’archivio: norme, mercato, costi.</p></div>
+<div class="card in" style="--i:1"><svg class="ico" aria-label="Agente 1" viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#1E8C80" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 7V4M9 12h.01M15 12h.01M9 16h6" stroke="#E8833A"/></svg><h3>Elisey Rotar</h3><p class="tag">Agente 1</p><p class="lab">Ha costruito il Research Curator, l’archivio come skill e il passaggio tra agenti.</p></div>
+<div class="card in" style="--i:2"><svg class="ico" aria-label="Agente 2" viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#1E8C80" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M8.5 12l2.5 2.5 4.5-5" stroke="#E8833A"/></svg><h3>Ahmed Ounifi</h3><p class="tag">Agente 2</p><p class="lab">Ha costruito l’Advisor, che trasforma le evidenze in una raccomandazione.</p></div>
+<div class="card in" style="--i:3"><svg class="ico" aria-label="Presentazione" viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#1E8C80" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M12 16v4M8 20h8"/><path d="M7 12l3-3 2 2 4-4" stroke="#E8833A"/></svg><h3>Andrea Moretti</h3><p class="tag">Pitch</p><p class="lab">Ha curato il pitch e la presentazione che state vedendo.</p></div>
+</div>
+<div class="brand"><svg aria-label="Logo PIRadar" width="52" height="52" viewBox="0 0 120 120"><rect width="120" height="120" rx="28" fill="#10233D"/><path d="M30 30 A60 60 0 0 1 90 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M30 56 A34 34 0 0 1 64 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.6"/><circle cx="30" cy="90" r="10" fill="#F0A060"/></svg><p class="wm"><span>PIR</span>adar</p></div>
+<p class="speaker">🎤 Ahmed</p>
+
+</section>
 <section id="problema">
 <p class="eyebrow">IL PROBLEMA · DATI VERIFICATI AL 26/11/2026</p>
 <h2>I pannellisti vedono il cambiamento quando è già arrivato</h2>
 <div class="row">
-<div class="card in" style="--i:0"><p class="big">−4,0%</p><p class="lab">costruzione di edifici nell’area euro, settembre 2026 su un anno prima</p><p class="src">Eurostat, 19/11/2026 · E07</p></div>
-<div class="card in" style="--i:1"><p class="big">×1,9</p><p class="lab">benzene, materia prima dell’MDI: 1.079 contro 566 €/t un anno prima</p><p class="src">Argus Media, 23/11/2026 · E35</p></div>
-<div class="card in" style="--i:2"><p class="big">−40%</p><p class="lab">traffico di petrolio attraverso Hormuz, con oltre 25 petroliere colpite in una settimana</p><p class="src">Al Jazeera, 24/11/2026 · E33</p></div>
+<div class="card in" style="--i:0"><svg class="ico" aria-label="Edificio in calo" viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#1E8C80" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V9l5-3v15M10 21V11h8v10"/><path d="M14 3v5M12 6l2 2 2-2" stroke="#E8833A"/></svg><p class="big">−4,0%</p><p class="lab">costruzione di edifici nell’area euro, settembre 2026 su un anno prima</p><p class="src">Eurostat, 19/11/2026 · E07</p></div>
+<div class="card in" style="--i:1"><svg class="ico" aria-label="Materia prima chimica" viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#1E8C80" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6L4.5 18.5A1.6 1.6 0 0 0 6 21h12a1.6 1.6 0 0 0 1.5-2.5L14 9V3"/><path d="M7 15h10" stroke="#E8833A"/></svg><p class="big">×1,9</p><p class="lab">benzene, materia prima dell’MDI: 1.079 contro 566 €/t un anno prima</p><p class="src">Argus Media, 23/11/2026 · E35</p></div>
+<div class="card in" style="--i:2"><svg class="ico" aria-label="Nave nello stretto" viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#1E8C80" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15l2 5h14l2-5H3z"/><path d="M6 15V9h12v6M12 9V4"/><path d="M2 22c2 0 2-1 4-1s2 1 4 1 2-1 4-1 2 1 4 1 2-1 4-1" stroke="#E8833A"/></svg><p class="big">−40%</p><p class="lab">traffico di petrolio attraverso Hormuz, con oltre 25 petroliere colpite in una settimana</p><p class="src">Al Jazeera, 24/11/2026 · E33</p></div>
 </div>
 <div class="banner in" style="--i:3"><p><b>Decisione per il responsabile commerciale BASF Italia:</b> quali clienti e quali prodotti privilegiare nei prossimi 12 mesi, con un piano a scenari rivisto ogni trimestre.</p></div>
 <div class="brand"><svg aria-label="Logo PIRadar" width="52" height="52" viewBox="0 0 120 120"><rect width="120" height="120" rx="28" fill="#10233D"/><path d="M30 30 A60 60 0 0 1 90 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M30 56 A34 34 0 0 1 64 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.6"/><circle cx="30" cy="90" r="10" fill="#F0A060"/></svg><p class="wm"><span>PIR</span>adar</p></div>
@@ -94,9 +110,9 @@ section.accent .speaker { background: #10233D; color: #F5F4EE; }
 <p class="eyebrow">L’ARCHIVIO · FONTI E TRACCIABILITÀ</p>
 <h2>40 evidenze pubbliche, 35 aperte e ricontrollate a mano</h2>
 <div class="row">
-<div class="card in" style="--i:0"><p class="big">35/40</p><p class="lab">righe verificate aprendo il link: Eurostat, Commissione UE, World Bank, UN Comtrade, BASF, Argus, EIA</p></div>
-<div class="card in" style="--i:1"><p class="big">3</p><p class="lab">etichette per ogni riga: FATTO, INFERENZA, LIMITE. Più stato e affidabilità A, B o C</p></div>
-<div class="card in" style="--i:2"><p class="big">5</p><p class="lab">dati deboli lasciati apposta: stime di mercato in conflitto e un prezzo non disponibile gratis</p></div>
+<div class="card in" style="--i:0"><p class="big">35/40</p><div class="bar"><div class="fill"></div></div><p class="lab">verificate aprendo il link: Eurostat, Commissione UE, World Bank, UN Comtrade, BASF, Argus, EIA</p></div>
+<div class="card in" style="--i:1"><svg class="ico" aria-label="Tre etichette" viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#3FC1B0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12V4h8l10 10-8 8L3 12z"/><circle cx="7.5" cy="8.5" r="1.5" fill="#F0A060" stroke="#F0A060"/></svg><p class="lab">Ogni riga ha <b>FATTO</b>, <b>INFERENZA</b> o <b>LIMITE</b>, più fonte, URL, data e affidabilità A, B o C</p></div>
+<div class="card in" style="--i:2"><svg class="ico" aria-label="Attenzione" viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#F0A060" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l10 18H2L12 3z"/><path d="M12 10v5M12 18h.01"/></svg><p class="lab">5 dati deboli lasciati apposta: stime di mercato in conflitto e un prezzo non disponibile gratis</p></div>
 </div>
 <div class="banner in" style="--i:3; background:#1A3352;"><p><b>La verifica funziona:</b> l’Agente 1 aveva scritto che il PMDI per pannelli PIR sale di 20-50 €/t, ma aveva omesso che il prezzo medio scende. L’abbiamo trovato e corretto prima che arrivasse all’Advisor.</p></div>
 <div class="brand"><svg aria-label="Logo PIRadar" width="52" height="52" viewBox="0 0 120 120"><rect width="120" height="120" rx="28" fill="#1A3352"/><path d="M30 30 A60 60 0 0 1 90 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M30 56 A34 34 0 0 1 64 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.6"/><circle cx="30" cy="90" r="10" fill="#F0A060"/></svg><p class="wm"><span>PIR</span>adar</p></div>

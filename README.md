@@ -66,4 +66,4 @@ Gli output dell'Agente 2 sono in [consegna_onedrive/](consegna_onedrive). Ogni p
 Solo fonti pubbliche, nessun dato personale. Fatti, inferenze e scenari sono sempre etichettati, e la decisione finale spetta a una persona. È un dimostratore educativo, non un sistema per decisioni aziendali reali.
 
 ## Team
-Gruppo 10: Elisey Rotar (builder, agenti), Andrea Moretti (test, archivio), Ahmed Ounifi (fonti, tempi), Federico Roncalli (product lead, chimica).
+Gruppo 10: Federico Roncalli (ricerca delle fonti), Elisey Rotar (Agente 1 Research Curator), Ahmed Ounifi (Agente 2 Advisor), Andrea Moretti (pitch e presentazione).

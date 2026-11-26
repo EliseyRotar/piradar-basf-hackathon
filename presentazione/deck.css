@@ -43,6 +43,9 @@ section.dark .brand .wm { color: #F5F4EE; }
 section.dark .brand .wm span { color: #3FC1B0; }
 .foot { position: absolute; left: 128px; bottom: 48px; width: 1664px; font-size: 24px; color: #7A8796; }
 section.dark .foot { color: #8FA3B1; }
+.ico { width: 64px; height: 64px; }
+.bar { height: 18px; border-radius: 9px; background: #2A4466; display: flex; }
+.bar .fill { width: 87.5%; height: 18px; border-radius: 9px; background: #3FC1B0; }
 .speaker { position: absolute; left: 128px; bottom: 44px; font-family: 'Space Grotesk', Arial, sans-serif; font-size: 24px; font-weight: 600; padding: 6px 20px; border-radius: 30px; background: #DCEFEA; color: #135E56; white-space: nowrap; }
 section.dark .speaker { background: #1A3352; color: #3FC1B0; }
 section.accent .speaker { background: #10233D; color: #F5F4EE; }
