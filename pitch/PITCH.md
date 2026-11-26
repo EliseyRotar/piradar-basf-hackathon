@@ -24,20 +24,12 @@ La cosa più interessante: Agent Builder non permette agli agenti di parlarsi. N
 E sa dire di no. Nella prova B gli hanno dato un '+30% di domanda nel 2027' senza fonte: l'ha rifiutato, ha spiegato che le stime vere dicono 2-5% l'anno e non l'ha aggiunto all'archivio.
 Federico, cosa consiglia?"
 
-## 4. FEDERICO - Raccomandazione (2:50-3:25)
+## 4. FEDERICO - Raccomandazione, futuro, chiusura (2:50-4:00)
 "Il consiglio per BASF: un **'PIR Priority Portfolio' trimestrale**. Proteggere capacità per i pannellisti che servono **catena del freddo e data center**, dove contano fuoco e isolamento e dove BASF ha già Elastopir, con opzione Biomass Balance per chi deve dichiarare il carbonio dal 2028. Prezzi con revisione trimestrale, non fissi per un anno.
 Per il cliente: un **pilota piccolo e reversibile** su una linea, con criteri chiari per proseguire o fermarsi.
 Fatti e scenari sempre separati: oggi la guerra in Ucraina non è finita, quindi resta un'ipotesi.
-Elisey, raccontalo in inglese: dove può arrivare il prototipo?"
-
-## 5. ELISEY - In inglese (slide 7 e 8, circa 35 secondi, parlare lenti)
-"With a small investment, BASF gets three things.
-**One:** Copilot Studio. The Advisor calls the Curator automatically. The architecture is already tested.
-**Two:** a weekly radar. It updates the sources and sends an alert when a trigger fires.
-**Three:** it is replicable. For any other BASF market, you change the archive, not the agents.
-Our prototype does not guess the future. **It turns verified data into decisions that a person can check.** Thank you!"
-
-Pronuncia: *Copilot* = "copàilot", *archive* = "àrcaiv", *replicable* = "rèplicabol", *verified* = "vèrifaid".
+Con un piccolo investimento, domani: Copilot Studio per collegare gli agenti in automatico, un radar settimanale che avvisa quando scatta un segnale, e lo stesso modello per altri mercati BASF: si cambia l'archivio, non gli agenti.
+Il nostro prototipo non indovina il futuro: **trasforma dati verificati in decisioni che una persona può controllare**. Grazie."
 
 ---
 
