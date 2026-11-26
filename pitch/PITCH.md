@@ -27,9 +27,17 @@ Federico, cosa consiglia?"
 ## 4. FEDERICO - Raccomandazione, futuro, chiusura (2:50-4:00)
 "Il consiglio per BASF: un **'PIR Priority Portfolio' trimestrale**. Proteggere capacità per i pannellisti che servono **catena del freddo e data center**, dove contano fuoco e isolamento e dove BASF ha già Elastopir, con opzione Biomass Balance per chi deve dichiarare il carbonio dal 2028. Prezzi con revisione trimestrale, non fissi per un anno.
 Per il cliente: un **pilota piccolo e reversibile** su una linea, con criteri chiari per proseguire o fermarsi.
-Separiamo sempre i fatti dagli scenari: oggi la guerra in Ucraina non è finita. Se finisse, il prototipo dice di prepararsi alla ricostruzione, ma non di comprare scorte: le sanzioni restano.
-Con un piccolo investimento, domani: Copilot Studio per collegare gli agenti in automatico e scrivere direttamente nell'Excel condiviso, aggiornamento settimanale delle fonti, e lo stesso modello copiato per altri mercati BASF, basta cambiare l'archivio.
-Il nostro prototipo non indovina il futuro: **trasforma dati verificati in decisioni che una persona può controllare**. Grazie."
+Fatti e scenari sempre separati: oggi la guerra in Ucraina non è finita, quindi resta un'ipotesi.
+E ora in inglese, perché è qui che il prototipo può crescere."
+
+**PARTE IN INGLESE (slide "With a small investment", circa 35 secondi, parlare lenti):**
+"With a small investment, BASF gets three things.
+**One:** Copilot Studio. The Advisor calls the Curator automatically. The architecture is already tested.
+**Two:** a weekly radar. It updates the sources and sends an alert when a trigger fires.
+**Three:** it is replicable. For any other BASF market, you change the archive, not the agents.
+Our prototype does not guess the future. **It turns verified data into decisions that a person can check.** Thank you!"
+
+Pronuncia: *Copilot* = "copàilot", *archive* = "àrcaiv", *replicable* = "rèplicabol", *verified* = "vèrifaid".
 
 ---
 
