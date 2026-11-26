@@ -13,7 +13,7 @@ Cerca l'ultimo comunicato Eurostat sulla produzione nelle costruzioni e prepara 
 ```
 3. Quando ha risposto, nella **stessa chat** scrivi `@`, scegli `G10 Agente 2 Advisor` e incolla:
 ```
-Usa il BLOCCO_HANDOFF qui sopra. In massimo 6 righe: quale segmento di clienti deve privilegiare BASF nei prossimi 12 mesi e perché? Cita gli ID, separa fatti e ipotesi, indica la confidenza.
+Usa il BLOCCO_HANDOFF qui sopra insieme all'archivio della skill archivio-g10 (in particolare E25 data center, E26 catena del freddo, E30 Elastopir, E34 prezzi PMDI). In massimo 6 righe: quale segmento di clienti deve privilegiare BASF nei prossimi 12 mesi e perché? Cita gli ID, separa fatti e ipotesi, indica la confidenza.
 ```
 4. (Facoltativo, effetto forte) Sempre nella stessa chat: `@` > `G10 Agente 1 Research Curator` e incolla:
 ```
