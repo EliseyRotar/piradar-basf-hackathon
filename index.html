@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PIRadar - Gruppo 10</title>
+<link rel="icon" href="pitch/logo_piradar.svg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@400;600&display=swap">
+<style>
+html,body{margin:0;height:100%;background:#0B1828;overflow:hidden}
+#stage{position:absolute;left:50%;top:50%;width:1920px;height:1080px;transform-origin:center center}
+#stage>section{position:absolute;inset:0;width:1920px;height:1080px;display:none}
+#stage>section.on{display:flex}
+body { font-family: 'Inter', Arial, sans-serif; color: #1B2A3F; }
+section { padding: 128px; background: #F5F4EE; box-sizing: border-box; display: flex; flex-direction: column; gap: 40px; }
+section.dark { background: #10233D; color: #EEF2F0; }
+section.accent { background: #E8833A; color: #10233D; }
+h1, h2, h3 { font-family: 'Space Grotesk', Arial, sans-serif; margin: 0; }
+h1 { font-size: 120px; font-weight: 700; line-height: 1.0; }
+h2 { font-size: 72px; font-weight: 700; line-height: 1.05; color: #10233D; }
+section.dark h2 { color: #F5F4EE; }
+h3 { font-size: 40px; font-weight: 600; line-height: 1.15; }
+p { margin: 0; font-size: 32px; line-height: 1.35; }
+.eyebrow { font-size: 28px; font-weight: 600; letter-spacing: 3px; color: #1E8C80; }
+section.dark .eyebrow { color: #F0A060; }
+.lead { font-size: 40px; line-height: 1.3; color: #3A4A5E; }
+section.dark .lead { color: #C9D6DD; }
+.small { font-size: 24px; color: #5A6878; }
+section.dark .small { color: #A9BAC4; }
+.row { display: flex; gap: 40px; }
+.card { flex: 1; background: #FFFFFF; border-radius: 20px; padding: 40px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 6px 24px rgba(16,35,61,0.08); }
+section.dark .card { background: #1A3352; box-shadow: none; }
+.card .big { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 96px; font-weight: 700; line-height: 1; color: #1E8C80; }
+section.dark .card .big { color: #F0A060; }
+.card .lab { font-size: 32px; line-height: 1.3; }
+.card .src { font-size: 24px; color: #5A6878; }
+section.dark .card .src { color: #A9BAC4; }
+.tag { font-size: 24px; font-weight: 600; padding: 8px 20px; border-radius: 40px; background: #DCEFEA; color: #135E56; align-self: flex-start; }
+.tag.warn { background: #FBE3CF; color: #8A3F0C; }
+.flow { display: flex; align-items: stretch; gap: 24px; }
+.node { flex: 1; border-radius: 20px; padding: 36px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF; border: 3px solid #1E8C80; }
+.node.human { border-color: #E8833A; }
+.node.store { background: #10233D; color: #EEF2F0; border-color: #10233D; }
+.node h3 { font-size: 36px; }
+.node p { font-size: 26px; }
+.arrow { width: 56px; align-self: center; font-family: 'Space Grotesk', Arial, sans-serif; font-size: 56px; color: #1E8C80; text-align: center; }
+.banner { background: #10233D; color: #F5F4EE; border-radius: 20px; padding: 32px 40px; }
+.banner p { font-size: 32px; }
+.banner b { color: #F0A060; }
+.quote { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 80px; font-weight: 600; line-height: 1.12; }
+.names { font-size: 32px; color: #C9D6DD; }
+.brand { position: absolute; right: 96px; top: 52px; width: 300px; height: 56px; display: flex; align-items: center; justify-content: flex-end; gap: 14px; }
+.brand .wm { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 28px; font-weight: 700; color: #10233D; white-space: nowrap; }
+section.dark .brand .wm { color: #F5F4EE; }
+.brand .wm span { color: #1E8C80; }
+section.dark .brand .wm span { color: #3FC1B0; }
+.foot { position: absolute; left: 128px; bottom: 48px; width: 1664px; font-size: 24px; color: #7A8796; }
+section.dark .foot { color: #8FA3B1; }
+.speaker { position: absolute; left: 128px; bottom: 44px; font-family: 'Space Grotesk', Arial, sans-serif; font-size: 24px; font-weight: 600; padding: 6px 20px; border-radius: 30px; background: #DCEFEA; color: #135E56; white-space: nowrap; }
+section.dark .speaker { background: #1A3352; color: #3FC1B0; }
+section.accent .speaker { background: #10233D; color: #F5F4EE; }
+.hero { display: flex; align-items: center; gap: 56px; }
+.wordmark { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 150px; font-weight: 700; line-height: 1; color: #F5F4EE; letter-spacing: -3px; }
+.wordmark span { color: #3FC1B0; }
+@keyframes rise { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+.in { animation: rise 600ms ease-out both; animation-delay: calc(var(--i) * 140ms); }
+
+#bar{position:fixed;right:16px;bottom:12px;font:14px Inter,Arial,sans-serif;color:#8FA3B1;user-select:none}
+#bar a{color:#3FC1B0}
+</style></head><body>
+<div id="stage">
+<section id="cover" class="dark" style="justify-content: center; gap: 48px;">
+<p class="eyebrow in" style="--i:0">HACKATHON BASF · GRUPPO 10 · ITIS MARCONI DALMINE</p>
+<div class="hero in" style="--i:1">
+<svg aria-label="Logo PIRadar: un radar che scansiona il mercato" width="200" height="200" viewBox="0 0 120 120"><rect width="120" height="120" rx="28" fill="#1A3352"/><path d="M30 30 A60 60 0 0 1 90 90" stroke="#3FC1B0" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M30 48 A42 42 0 0 1 72 90" stroke="#3FC1B0" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M30 66 A24 24 0 0 1 54 90" stroke="#3FC1B0" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.45"/><circle cx="30" cy="90" r="9" fill="#F0A060"/><circle cx="76" cy="46" r="6" fill="#F0A060"/></svg>
+<p class="wordmark"><span>PIR</span>adar</p>
+</div>
+<p class="lead in" style="--i:2; width:1400px;">Il radar di mercato per i pannelli sandwich PU/PIR: due agenti su Microsoft 365 Copilot trasformano fonti pubbliche verificate in una decisione per BASF.</p>
+<p class="names in" style="--i:3">Ahmed Ounifi · Andrea Moretti · Elisey Rotar · Federico Roncalli</p>
+<p class="speaker">🎤 Ahmed</p>
+
+</section>
+<section id="problema">
+<p class="eyebrow">IL PROBLEMA · DATI VERIFICATI AL 26/11/2026</p>
+<h2>I pannellisti vedono il cambiamento quando è già arrivato</h2>
+<div class="row">
+<div class="card in" style="--i:0"><p class="big">−4,0%</p><p class="lab">costruzione di edifici nell’area euro, settembre 2026 su un anno prima</p><p class="src">Eurostat, 19/11/2026 · E07</p></div>
+<div class="card in" style="--i:1"><p class="big">×1,9</p><p class="lab">benzene, materia prima dell’MDI: 1.079 contro 566 €/t un anno prima</p><p class="src">Argus Media, 23/11/2026 · E35</p></div>
+<div class="card in" style="--i:2"><p class="big">−40%</p><p class="lab">traffico di petrolio attraverso Hormuz, con oltre 25 petroliere colpite in una settimana</p><p class="src">Al Jazeera, 24/11/2026 · E33</p></div>
+</div>
+<div class="banner in" style="--i:3"><p><b>Decisione per il responsabile commerciale BASF Italia:</b> quali clienti e quali prodotti privilegiare nei prossimi 12 mesi, con un piano a scenari rivisto ogni trimestre.</p></div>
+<div class="brand"><svg aria-label="Logo PIRadar" width="52" height="52" viewBox="0 0 120 120"><rect width="120" height="120" rx="28" fill="#10233D"/><path d="M30 30 A60 60 0 0 1 90 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M30 56 A34 34 0 0 1 64 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.6"/><circle cx="30" cy="90" r="10" fill="#F0A060"/></svg><p class="wm"><span>PIR</span>adar</p></div>
+<p class="speaker">🎤 Ahmed</p>
+
+</section>
+<section id="archivio" class="dark">
+<p class="eyebrow">L’ARCHIVIO · FONTI E TRACCIABILITÀ</p>
+<h2>40 evidenze pubbliche, 35 aperte e ricontrollate a mano</h2>
+<div class="row">
+<div class="card in" style="--i:0"><p class="big">35/40</p><p class="lab">righe verificate aprendo il link: Eurostat, Commissione UE, World Bank, UN Comtrade, BASF, Argus, EIA</p></div>
+<div class="card in" style="--i:1"><p class="big">3</p><p class="lab">etichette per ogni riga: FATTO, INFERENZA, LIMITE. Più stato e affidabilità A, B o C</p></div>
+<div class="card in" style="--i:2"><p class="big">5</p><p class="lab">dati deboli lasciati apposta: stime di mercato in conflitto e un prezzo non disponibile gratis</p></div>
+</div>
+<div class="banner in" style="--i:3; background:#1A3352;"><p><b>La verifica funziona:</b> l’Agente 1 aveva scritto che il PMDI per pannelli PIR sale di 20-50 €/t, ma aveva omesso che il prezzo medio scende. L’abbiamo trovato e corretto prima che arrivasse all’Advisor.</p></div>
+<div class="brand"><svg aria-label="Logo PIRadar" width="52" height="52" viewBox="0 0 120 120"><rect width="120" height="120" rx="28" fill="#1A3352"/><path d="M30 30 A60 60 0 0 1 90 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M30 56 A34 34 0 0 1 64 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.6"/><circle cx="30" cy="90" r="10" fill="#F0A060"/></svg><p class="wm"><span>PIR</span>adar</p></div>
+<p class="speaker">🎤 Andrea</p>
+
+</section>
+<section id="architettura">
+<p class="eyebrow">IL PROTOTIPO · DUE RUOLI SEPARATI</p>
+<h2>Due agenti, un archivio, una persona che verifica</h2>
+<div class="flow">
+<div class="node in" style="--i:0"><p class="tag">Agente 1</p><h3>Research Curator</h3><p>Cerca fonti pubbliche, estrae il dato con URL e data, lo classifica fatto, inferenza o limite. Non dà mai consigli.</p></div>
+<p class="arrow">→</p>
+<div class="node human in" style="--i:1"><p class="tag warn">Persona</p><h3>Verifica umana</h3><p>Apre ogni link, controlla il numero, corregge, segna VERIFICATO.</p></div>
+<p class="arrow">→</p>
+<div class="node store in" style="--i:2"><p class="tag">Archivio</p><h3>40 evidenze</h3><p>Skill condivisa installata in entrambi gli agenti.</p></div>
+<p class="arrow">→</p>
+<div class="node in" style="--i:3"><p class="tag">Agente 2</p><h3>Advisor</h3><p>Senza web: usa solo evidenze, cita ogni ID, separa fatti e scenari, consiglia.</p></div>
+</div>
+<div class="banner in" style="--i:4"><p><b>Il passaggio diretto:</b> Agent Builder non collega gli agenti, quindi l’abbiamo fatto noi. In una sola chat si chiama @Agente 1, poi @Agente 2 usa subito i dati appena trovati. Se mancano dati, l’Advisor scrive la richiesta all’Agente 1 e il ciclo si chiude.</p></div>
+<div class="brand"><svg aria-label="Logo PIRadar" width="52" height="52" viewBox="0 0 120 120"><rect width="120" height="120" rx="28" fill="#10233D"/><path d="M30 30 A60 60 0 0 1 90 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M30 56 A34 34 0 0 1 64 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.6"/><circle cx="30" cy="90" r="10" fill="#F0A060"/></svg><p class="wm"><span>PIR</span>adar</p></div>
+<p class="speaker">🎤 Elisey</p>
+
+</section>
+<section id="prove">
+<p class="eyebrow">LE 4 PROVE · TEST E INCERTEZZA</p>
+<h2>Non è caduto nelle trappole</h2>
+<div class="row">
+<div class="card in" style="--i:0"><p class="tag">Prova A</p><h3>Un’azione concreta</h3><p class="lab">Pilota PIR con un pannellista italiano entro il Q2 2027, con KPI. Ogni fatto con ID e URL.</p></div>
+<div class="card in" style="--i:1"><p class="tag warn">Prova B</p><h3>“+30% nel 2027”</h3><p class="lab">Rifiutato: nessuna fonte. Le stime vere dicono 2-5% l’anno. Non aggiunto all’archivio.</p></div>
+</div>
+<div class="row">
+<div class="card in" style="--i:2"><p class="tag warn">Prova C</p><h3>Dazio e fine guerra</h3><p class="lab">Due scenari separati. Pace non vuol dire gas più basso: le sanzioni restano. Oggi non c’è un cessate il fuoco.</p></div>
+<div class="card in" style="--i:3"><p class="tag warn">Prova D</p><h3>Lattonedil e Isopan</h3><p class="lab">Nessun dato in archivio: lo dichiara, non inventa stabilimenti, propone un test piccolo e reversibile.</p></div>
+</div>
+<div class="brand"><svg aria-label="Logo PIRadar" width="52" height="52" viewBox="0 0 120 120"><rect width="120" height="120" rx="28" fill="#10233D"/><path d="M30 30 A60 60 0 0 1 90 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M30 56 A34 34 0 0 1 64 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.6"/><circle cx="30" cy="90" r="10" fill="#F0A060"/></svg><p class="wm"><span>PIR</span>adar</p></div>
+<p class="speaker">🎤 Elisey</p>
+
+</section>
+<section id="raccomandazione" class="accent">
+<p class="eyebrow" style="color:#10233D;">LA RACCOMANDAZIONE</p>
+<h2 style="color:#10233D;">PIR Priority Portfolio, rivisto ogni trimestre</h2>
+<div class="row">
+<div class="card in" style="--i:0"><h3>Per BASF</h3><p class="lab">Capacità protetta per i pannellisti che servono catena del freddo e data center, dove contano fuoco e isolamento. Elastopir già pronto, opzione Biomass Balance per chi dichiara il carbonio dal 2028. Prezzi con revisione trimestrale.</p><p class="src">E07 · E25 · E26 · E30 · E34 · E02</p></div>
+<div class="card in" style="--i:1"><h3>Per il pannellista</h3><p class="lab">Un pilota piccolo e reversibile su una linea, con criteri scritti per proseguire o fermarsi. Nessuna scorta comprata su uno scenario.</p><p class="src">Prove A e D</p></div>
+</div>
+<p class="in" style="--i:2; font-size:32px; font-weight:600;">Fatti e scenari sempre separati: la fine della guerra resta un’ipotesi, e la decisione finale è di una persona.</p>
+<div class="brand"><svg aria-label="Logo PIRadar" width="52" height="52" viewBox="0 0 120 120"><rect width="120" height="120" rx="28" fill="#10233D"/><path d="M30 30 A60 60 0 0 1 90 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M30 56 A34 34 0 0 1 64 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.6"/><circle cx="30" cy="90" r="10" fill="#F5F4EE"/></svg><p class="wm"><span style="color:#10233D;">PIR</span>adar</p></div>
+<p class="speaker">🎤 Federico</p>
+
+</section>
+<section id="futuro">
+<p class="eyebrow">CON UN PICCOLO INVESTIMENTO</p>
+<h2>Cosa diventa domani</h2>
+<div class="row">
+<div class="card in" style="--i:0"><p class="big">1</p><h3>Agenti collegati</h3><p class="lab">Con Copilot Studio l’Advisor chiama il Curator da solo. L’architettura è già pronta e testata.</p></div>
+<div class="card in" style="--i:1"><p class="big">2</p><h3>Radar settimanale</h3><p class="lab">Le fonti si aggiornano ogni settimana, con un avviso quando scatta un segnale, ad esempio un nuovo dato Eurostat.</p></div>
+<div class="card in" style="--i:2"><p class="big">3</p><h3>Replicabile</h3><p class="lab">Per un altro mercato BASF si cambia l’archivio, non gli agenti.</p></div>
+</div>
+<div class="brand"><svg aria-label="Logo PIRadar" width="52" height="52" viewBox="0 0 120 120"><rect width="120" height="120" rx="28" fill="#10233D"/><path d="M30 30 A60 60 0 0 1 90 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M30 56 A34 34 0 0 1 64 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.6"/><circle cx="30" cy="90" r="10" fill="#F0A060"/></svg><p class="wm"><span>PIR</span>adar</p></div>
+<p class="speaker">🎤 Federico</p>
+
+</section>
+<section id="chiusura" class="dark" style="justify-content: center;">
+<div class="hero in" style="--i:0; gap:28px;"><svg aria-label="Logo PIRadar" width="96" height="96" viewBox="0 0 120 120"><rect width="120" height="120" rx="28" fill="#1A3352"/><path d="M30 30 A60 60 0 0 1 90 90" stroke="#3FC1B0" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M30 48 A42 42 0 0 1 72 90" stroke="#3FC1B0" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M30 66 A24 24 0 0 1 54 90" stroke="#3FC1B0" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.45"/><circle cx="30" cy="90" r="9" fill="#F0A060"/></svg><p class="wordmark" style="font-size:72px;"><span>PIR</span>adar</p></div>
+<p class="quote in" style="--i:1; color:#F5F4EE; width:1500px;">Non indoviniamo il futuro. Trasformiamo dati verificati in decisioni che una persona può controllare.</p>
+<p class="names in" style="--i:2">Grazie · Ahmed Ounifi · Andrea Moretti · Elisey Rotar · Federico Roncalli</p>
+<p class="speaker">🎤 Federico</p>
+
+</section>
+
+</div>
+<div id="bar"><span id="n"></span> · ← → per cambiare slide · F schermo intero · <a href="https://github.com/EliseyRotar/piradar-basf-hackathon">repo</a></div>
+<script>
+const s=[...document.querySelectorAll('#stage>section')];let i=0;
+function fit(){const k=Math.min(innerWidth/1920,innerHeight/1080);document.getElementById('stage').style.transform='translate(-50%,-50%) scale('+k+')'}
+function show(j){i=Math.max(0,Math.min(s.length-1,j));s.forEach((x,k)=>x.classList.toggle('on',k===i));document.getElementById('n').textContent=(i+1)+' / '+s.length;history.replaceState(null,'','#'+(i+1))}
+addEventListener('resize',fit);
+addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key))show(i+1);if(['ArrowLeft','PageUp'].includes(e.key))show(i-1);if(e.key==='f'||e.key==='F')document.documentElement.requestFullscreen?.()});
+addEventListener('click',e=>{if(e.target.closest('a'))return;show(e.clientX>innerWidth/2?i+1:i-1)});
+fit();show((parseInt(location.hash.slice(1))||1)-1);
+</script></body></html>

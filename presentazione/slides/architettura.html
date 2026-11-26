@@ -1,0 +1,17 @@
+<section id="architettura">
+<p class="eyebrow">IL PROTOTIPO · DUE RUOLI SEPARATI</p>
+<h2>Due agenti, un archivio, una persona che verifica</h2>
+<div class="flow">
+<div class="node in" style="--i:0"><p class="tag">Agente 1</p><h3>Research Curator</h3><p>Cerca fonti pubbliche, estrae il dato con URL e data, lo classifica fatto, inferenza o limite. Non dà mai consigli.</p></div>
+<p class="arrow">→</p>
+<div class="node human in" style="--i:1"><p class="tag warn">Persona</p><h3>Verifica umana</h3><p>Apre ogni link, controlla il numero, corregge, segna VERIFICATO.</p></div>
+<p class="arrow">→</p>
+<div class="node store in" style="--i:2"><p class="tag">Archivio</p><h3>40 evidenze</h3><p>Skill condivisa installata in entrambi gli agenti.</p></div>
+<p class="arrow">→</p>
+<div class="node in" style="--i:3"><p class="tag">Agente 2</p><h3>Advisor</h3><p>Senza web: usa solo evidenze, cita ogni ID, separa fatti e scenari, consiglia.</p></div>
+</div>
+<div class="banner in" style="--i:4"><p><b>Il passaggio diretto:</b> Agent Builder non collega gli agenti, quindi l’abbiamo fatto noi. In una sola chat si chiama @Agente 1, poi @Agente 2 usa subito i dati appena trovati. Se mancano dati, l’Advisor scrive la richiesta all’Agente 1 e il ciclo si chiude.</p></div>
+<div class="brand"><svg aria-label="Logo PIRadar" width="52" height="52" viewBox="0 0 120 120"><rect width="120" height="120" rx="28" fill="#10233D"/><path d="M30 30 A60 60 0 0 1 90 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M30 56 A34 34 0 0 1 64 90" stroke="#3FC1B0" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.6"/><circle cx="30" cy="90" r="10" fill="#F0A060"/></svg><p class="wm"><span>PIR</span>adar</p></div>
+<p class="speaker">🎤 Elisey</p>
+<aside>ELISEY. Due ruoli separati. Se chiedi un consiglio all’Agente 1 risponde: è compito dell’Agente 2. Il trucco della @menzione nella stessa chat. Ciclo di ritorno.</aside>
+</section>
