@@ -24,13 +24,13 @@ La cosa più interessante: Agent Builder non permette agli agenti di parlarsi. N
 E sa dire di no. Nella prova B gli hanno dato un '+30% di domanda nel 2027' senza fonte: l'ha rifiutato, ha spiegato che le stime vere dicono 2-5% l'anno e non l'ha aggiunto all'archivio.
 Federico, cosa consiglia?"
 
-## 4. FEDERICO - Raccomandazione, futuro, chiusura (2:50-4:00)
+## 4. FEDERICO - Raccomandazione (2:50-3:25)
 "Il consiglio per BASF: un **'PIR Priority Portfolio' trimestrale**. Proteggere capacità per i pannellisti che servono **catena del freddo e data center**, dove contano fuoco e isolamento e dove BASF ha già Elastopir, con opzione Biomass Balance per chi deve dichiarare il carbonio dal 2028. Prezzi con revisione trimestrale, non fissi per un anno.
 Per il cliente: un **pilota piccolo e reversibile** su una linea, con criteri chiari per proseguire o fermarsi.
 Fatti e scenari sempre separati: oggi la guerra in Ucraina non è finita, quindi resta un'ipotesi.
-E ora in inglese, perché è qui che il prototipo può crescere."
+Elisey, raccontalo in inglese: dove può arrivare il prototipo?"
 
-**PARTE IN INGLESE (slide "With a small investment", circa 35 secondi, parlare lenti):**
+## 5. ELISEY - In inglese (slide 7 e 8, circa 35 secondi, parlare lenti)
 "With a small investment, BASF gets three things.
 **One:** Copilot Studio. The Advisor calls the Curator automatically. The architecture is already tested.
 **Two:** a weekly radar. It updates the sources and sends an alert when a trigger fires.
